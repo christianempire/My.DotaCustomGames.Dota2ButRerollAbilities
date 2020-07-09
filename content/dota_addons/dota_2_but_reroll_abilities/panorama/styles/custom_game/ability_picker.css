@@ -1,0 +1,42 @@
+#ability-button-1 {
+    margin-left: 0px;
+}
+
+#ability-button-2 {
+    margin-left: 200px;
+}
+
+#ability-button-3 {
+    margin-left: 400px;
+}
+
+#ability-button-4 {
+    margin-left: 600px;
+}
+
+#caption {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.ability-button {
+    margin-top: 50px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.invisible {
+    visibility: collapse;
+}
+
+.row {
+    background-color: black;
+    horizontal-align: center;
+    padding: 50px;
+    vertical-align: center;
+}

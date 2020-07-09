@@ -1,0 +1,18 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+	"Version"		"1"
+
+	//=================================================================================================================
+	// Reroll!
+	//=================================================================================================================
+	"all_reroll"
+	{
+		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityGoldCost" "250"
+		"AbilityTextureName" "tinker_rearm"
+		"BaseClass" "ability_lua"
+		"MaxLevel" "1"
+		"ScriptFile" "abilities/all_reroll"
+	}
+}

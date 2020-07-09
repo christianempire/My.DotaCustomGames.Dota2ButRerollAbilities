@@ -1,0 +1,26 @@
+<!-- onmouseover="DOTAShowAbilityTooltip('all_reroll')" onmouseout="DOTAHideAbilityTooltip()" -->
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/ability_picker.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/ability_picker.js" /> 
+    </scripts>
+    <Panel class="container">
+        <Panel id="ability-picker-panel" class="row invisible">
+            <Label id="caption" text="Select the ability you want to reroll" />
+            <Button id="ability-button-1" class="ability-button" onactivate="selectAbilityOnSlot(1)">
+                <DOTAAbilityImage id="ability-image-1" abilityname="" />
+            </Button>
+            <Button id="ability-button-2" class="ability-button" onactivate="selectAbilityOnSlot(2)">
+                <DOTAAbilityImage id="ability-image-2" abilityname="" />
+            </Button>
+            <Button id="ability-button-3" class="ability-button" onactivate="selectAbilityOnSlot(3)">
+                <DOTAAbilityImage id="ability-image-3" abilityname="" />
+            </Button>
+            <Button id="ability-button-4" class="ability-button" onactivate="selectAbilityOnSlot(4)">
+                <DOTAAbilityImage id="ability-image-4" abilityname="" />
+            </Button>
+        </Panel>
+    </Panel>
+</root>
