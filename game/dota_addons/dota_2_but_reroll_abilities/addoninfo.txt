@@ -1,3 +1,8 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+"AddonInfo"
 {
+    "addonauthor" "christianempire"
+    "addonauthorSteamID" "STEAM_0:0:22745823"
+    "addontitle" "Dota 2 But Reroll Abilities"
+    "addonversion" "1.01"
+    "maps" "dota"
 }
